@@ -1,0 +1,1 @@
+git-version.sh %1 %2
