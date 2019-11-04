@@ -24,11 +24,11 @@ This script aims provide an automatic versioning system for Arduino sketches. It
 
   3. Add this script to prebuild hooks of Arduino toolchain. Find the file `platform.txt` inside `/path/to/arduino-application/hardware/`. On Windows, append the following line:  
      ```
-     recipe.hooks.sketch.prebuild.1.pattern=git-version.bat {build.source.path}/src {build.path}/sketch/src
+     recipe.hooks.sketch.prebuild.1.pattern=git-version.bat "{build.source.path}/src" "{build.path}/sketch/src"
      ```  
      On Mac/Linux, append the following line:  
      ```
-     recipe.hooks.sketch.prebuild.1.pattern=/path/to/arduino-workspace/tools/git-version.sh {build.source.path}/src {build.path}/sketch/src
+     recipe.hooks.sketch.prebuild.1.pattern=/path/to/arduino-workspace/tools/git-version.sh "{build.source.path}/src" "{build.path}/sketch/src"
      ```
 
 ## Usage
