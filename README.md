@@ -6,6 +6,13 @@ This script aims provide an automatic versioning system for Arduino sketches. It
  - No extraordinary hacking to your ordinary toolchain (i.e. Arduino IDE)
  - Available for Window and Linux (MAC OS will be tested)
 
+## Requirements
+
+- Arduino IDE 1.8.9 or Arduino IDE 1.8.11 or newer
+- Git
+
+NOTE: on Arduino IDE 1.8.10 it doesn't work because a regression bug. I didn't tested this metohd on older versions.
+
 ## Installation
   
   1. Clone this repository (e.g. you may locate it inside `/path/to/arduino-workspace/tools/`).
