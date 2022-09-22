@@ -2,6 +2,8 @@
 
 This script provides an automatic versioning system for Arduino sketches based on git tag. This approach guarantees a strong relationship between source code and the compiled firmware. Moreover, it will enforce the developer to maintain meaningful tags during the project development.
 
+  :information_source: **NOTE**: Currently this script is incompatible with the brand new Arduino IDE 2.x, but a [feature request](https://github.com/arduino/arduino-cli/issues/999) is already pending.
+
 ## Features
 
 - it defines the constant GIT_VERSION, visible in your source code, containing version details
